@@ -1,0 +1,129 @@
+body {
+  font-size: 10pt;
+  font-family: BellMTStd-Regular,serif;
+  color: black;
+  padding: 5pt 5pt 0pt 5pt;
+}
+h1 {
+  font: 14pt;
+  font-weight: bold;
+  line-height: 20pt;
+}
+p {
+ padding: 5px;
+}
+img {
+ width: 100%;
+ height: auto;
+}
+
+/* header */
+.header {
+  background-color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.header h1 {
+  color: #fff;
+  overflow: auto;
+  margin: 0px;
+  padding: 5px;
+}
+.header p {
+  color: #fff;
+  margin: 0px;
+  padding: 5px;
+  margin: 10px;
+  float: right;
+}
+
+/* menu */
+
+ul.menu, ul.menu ul {
+      list-style-type: none;
+      padding: 5px;
+      margin: 0px;
+      overflow: auto;
+}
+ul.menu li ul {
+  display: none;
+  position: absolute;
+}
+ul.menu > li:hover > ul {
+  display: block;
+}
+ul.menu li {
+  float: left;
+}
+ul:after{
+ content:'';
+ clear:both;
+ display:block;
+}
+ul.menu a {
+  padding: 10px;
+  color: #fff;
+  background-color: cornflowerblue;
+  text-decoration: none;
+  display: block;
+
+}
+ul.menu a:hover {
+  background-color: #3162ba;
+}
+ul.menu > li > ul > li > a{
+  background-color: black;
+}
+/* main */
+.main {
+  background-color: black;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.section {
+  padding: 5px;
+  margin: 10px 5px;
+  background: grey;
+}
+.section h2 {
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background-color: cornflowerblue;
+  text-align: center;
+}
+.section p {
+  margin: 10px;
+}
+.footer {
+  background-color: #383838;
+  text-align: center;
+}
+.footer div {
+  padding: 10px
+}
+.contact {
+  padding-bottom: 0px;
+}
+.contact p {
+  padding-top: 0px;
+  font-style: italic;
+  font-size: 8pt;
+}
+.weather span {
+  font-style: italic;
+  font-size: 8pt;
+}
+.footer-pic {
+  height: 50px;
+}
+.footer-pic img {
+  height: 100%;
+  background-repeat: repeat;
+  margin-top: -30px;
+}
+.footer h2 {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
