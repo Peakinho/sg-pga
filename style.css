@@ -81,10 +81,16 @@ ul.menu > li > ul > li > a{
   padding: 5px;
   margin-bottom: 5px;
 }
+.section-2 {
+  padding: 5px 0px;
+  margin: 10px 0px;
+  background-color: #fff;
+}
 .section {
   padding: 5px;
   margin: 10px 5px;
   background: grey;
+  margin-bottom: 2px;
 }
 .section h2 {
   margin-left: auto;
@@ -93,8 +99,28 @@ ul.menu > li > ul > li > a{
   background-color: cornflowerblue;
   text-align: center;
 }
+.section-2 h2{
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background-color: cornflowerblue;
+  text-align: center;
+}
+table {
+  margin: 0px auto;
+}
+.section-2 table, th, td {
+  border: 1px solid black;
+}
+
 .section p {
   margin: 10px;
+}
+.section-2 p {
+  margin: 10px;
+}
+.main-2 {
+  text-align: center;
 }
 .footer {
   background-color: #383838;
@@ -126,4 +152,8 @@ ul.menu > li > ul > li > a{
 .footer h2 {
   margin-bottom: 0px;
   padding-bottom: 0px;
+}
+.quote-1 {
+  color: black;
+  background-color: white;
 }
