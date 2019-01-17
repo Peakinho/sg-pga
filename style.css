@@ -128,18 +128,19 @@ table {
   background-color: grey;
   color: #fff;
 }
-
 .banner-image {
   position: relative;
   display: inline-block;
   opacity: 0.6;
   padding-top: 10px;
+  width: 100%;
 }
 .banner-text{
   position: absolute;
   top: 1%;
   padding: 5px !important;
   color: #fff !important;
+  font-size: 40px;
 }
 .winning h2 {
   padding: 5px;
