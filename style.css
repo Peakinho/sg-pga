@@ -121,6 +121,12 @@ table {
 }
 .main-2 {
   text-align: center;
+  background-color: #D3D3D3;
+}
+.main-2 h2 {
+  padding-top: 10px;
+  background-color: grey;
+  color: #fff;
 }
 .footer {
   background-color: #383838;
@@ -131,15 +137,38 @@ table {
 }
 .contact {
   padding-bottom: 0px;
+  background-color: #fff;
+  color: cornflowerblue;
 }
 .contact p {
   padding-top: 0px;
   font-style: italic;
   font-size: 8pt;
 }
+.trophies {
+  background-color: #CFB53B;
+  text-align: center;
+}
+.trophies h1 {
+  padding: 10px;
+}
+.social h2 {
+  margin-bottom: 10px !important;
+}
+.social  img {
+  width: 50px;
+  height: auto;
+}
 .weather span {
   font-style: italic;
   font-size: 8pt;
+  color: #fff;
+}
+.weather h2{
+  color: #fff;
+}
+.weather div {
+  margin: 0px auto;
 }
 .footer-pic {
   height: 50px;
@@ -154,6 +183,12 @@ table {
   padding-bottom: 0px;
 }
 .quote-1 {
-  color: black;
+  color: grey;
   background-color: white;
+}
+.copyright {
+  font-size: 8pt;
+  text-align: center;
+  padding: 10px 0px;
+  color: grey;
 }
