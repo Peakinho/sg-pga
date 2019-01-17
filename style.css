@@ -1,5 +1,5 @@
 body {
-  font-size: 10pt;
+  font-size: 20pt;
   font-family: BellMTStd-Regular,serif;
   color: black;
   padding: 5pt 5pt 0pt 5pt;
@@ -10,7 +10,7 @@ h1 {
   line-height: 20pt;
 }
 p {
- padding: 5px;
+ padding: 10px;
 }
 img {
  width: 100%;
@@ -127,6 +127,22 @@ table {
   padding-top: 10px;
   background-color: grey;
   color: #fff;
+}
+
+.banner-image {
+  position: relative;
+  display: inline-block;
+  opacity: 0.6;
+  padding-top: 10px;
+}
+.banner-text{
+  position: absolute;
+  top: 1%;
+  padding: 5px !important;
+  color: #fff !important;
+}
+.winning h2 {
+  padding: 5px;
 }
 .footer {
   background-color: #383838;
